@@ -1,0 +1,948 @@
+
+@media only screen and (min-width: 1200px) {
+
+
+button {
+  color:#3c3c3c;
+
+  text-align: center;
+      font-size: 14px;
+      background-color: #ffdd00;
+      border: 0;
+      border-radius: 50px;
+      height: 28px;
+      width: 100px;
+      line-height: 20px;
+
+}
+
+
+button:hover{
+
+background-color:#3c3c3c;
+color:white;
+
+}
+
+header {
+display: table;
+background:url('https://www.icetourist.is/wp-content/uploads/2018/12/iceland-1751463_1920.jpg');
+/* background:url('https://images.unsplash.com/photo-1506269351850-0428eaed2193?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'); */
+background-repeat: no-repeat;
+background-size:cover;
+width:100%;
+height:900px;
+background-attachment: fixed;
+
+}
+
+.effectbackground {
+
+
+  display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      height: 100%;
+
+
+
+
+}
+
+.effectivetext {
+  width: 69%;
+  font-size: 100px;
+  text-align: center;
+  mix-blend-mode: lighten;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-weight: 900;
+  color: #000;
+
+}
+
+
+.effect1div {
+
+display: inline-block;
+
+
+
+}
+
+/* .effect1 {
+  font-size:180px;
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 15%, #ffffff 35%, #ffffff 50%, #ffffff 85%, #0048ff 90%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: color-text 8s linear infinite;
+animation: color-text 8s linear infinite;
+
+
+
+
+
+
+}
+
+@keyframes color-text {
+  0%{
+
+background-position:0px 0px;
+
+
+  }
+
+  50%{
+
+background-position:600px 0px;
+
+  }
+
+
+  100%{
+
+background-position:0px 0px;
+
+
+  } */
+
+
+}
+
+
+
+
+  html,body {
+
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  }
+
+
+  body {
+
+font-family: Roboto, Helvetica, Arial, sans-serif;
+
+  }
+
+
+
+.row1, .row2, .row3, .row5 {
+
+padding-top:100px;
+padding-bottom:100px;
+
+
+}
+
+
+.headnavsection {
+  grid-gap: 5px;
+  background-color: #fffffaf5;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 30% auto 20%;
+  grid-template-rows: 10% 35% auto;
+  grid-template-areas:
+      ". . . ."
+      ". headlogos headlogos ."
+      ". headnavs headnavs .";
+  z-index: 200;
+
+
+
+}
+
+
+.headnav {
+grid-area:headnavs;
+text-align: center;
+
+}
+
+
+.headnav ul li {
+text-decoration: none;
+display: inline;
+
+}
+
+.headnav ul li a {
+  padding:10px;
+font-size:14px;
+text-transform: uppercase;
+text-decoration: none;
+color:black;
+}
+
+.headnav ul li a:hover {
+  border-bottom: #ffdd00 solid 2px;
+  color: #ffdd00;
+
+
+
+}
+
+
+
+
+
+
+.headlogo {
+
+  align-self: center;
+  grid-area: headlogos;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* ***************** */
+/* Details for row1 */
+
+.row1 {
+  align-items: center;
+  margin: 0;
+  background-color: #ffffff;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 20% 33% 20% auto;
+  grid-template-rows: 100%;
+  grid-template-areas: ". textcontent1s imgcontent1s .";
+  padding: 0;
+  grid-gap:25px;
+
+
+
+
+}
+
+.textcontent p, h3 {
+
+
+  color:#555e69;
+
+}
+
+
+
+
+.textcontent {
+
+  font-size:14px;
+
+  grid-area:textcontent1s;
+  line-height: 24px;
+}
+
+.imgcontent {
+
+grid-area:imgcontent1s;
+
+
+}
+
+.imgcontent img {
+
+  object-fit: contain;
+  height:300px;
+
+
+}
+
+
+
+/* ending of details with row1 */
+/* *****************************/
+
+
+/* ****************
+details with row2 */
+
+
+.row2 {
+  grid-gap: 25px;
+  align-items: center;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-image: url(https://www.icetourist.is/wp-content/uploads/2016/05/bg-section-videos.jpg);
+  height: 513px;
+  display: grid;
+  grid-template-columns: 20% 22% 30% auto;
+  grid-template-rows: 100%;
+  grid-template-areas: ". textcontent2s imgcontent2s .";
+  padding: 0;
+}
+
+
+.textcontent2 {
+
+  color:white;
+  grid-area:textcontent2s;
+}
+
+.textcontent2 p {
+
+
+font-size:14px;
+line-height: 24px;
+text-transform: left;
+
+}
+
+
+.imgcontent2 {
+  height:100%;
+width:100%;
+grid-area:imgcontent2s;
+
+
+}
+
+.imgcontent2 iframe {
+  z-index: 0;
+  position: relative;
+  bottom: 382px;
+  height: 71%;
+  object-fit: contain;
+  width: 117%;
+
+}
+
+.imgcontent2 .video-bg {
+
+  z-index: 20;
+  position: relative;
+  bottom: -34px;
+
+}
+
+.video-bg img  {
+
+height:448px;
+
+}
+
+/* ending with details for row2 */
+/* **************************** */
+
+
+/* **************************
+beginning in details for row3 */
+
+
+.row3 {
+  background-color: white;
+  grid-gap: 30px;
+  display: grid;
+  grid-template-columns: 20% 33% 20% auto;
+  grid-template-rows: 100%;
+  grid-template-areas: ". imgcontent3s textcontent3s .";
+
+
+
+
+}
+
+
+
+
+.textcontent3 {
+
+
+  grid-area:textcontent3s;
+}
+
+.textcontent3 h2 {
+  font-weight: 500;
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 30px;
+      color: #434a54;
+
+
+}
+
+
+.textcontent3 p {
+
+  color: #555e69;
+      line-height: 26px;
+      font-size: 14px;
+
+}
+
+.imgcontent3 {
+
+grid-area:imgcontent3s;
+
+
+}
+
+.imgcontent3 img {
+
+/* object-fit: contain; */
+width:620px;
+HEIGHT:418px;
+
+}
+
+/* ending with details for row3 */
+/* **************************** */
+
+
+/* ***************************** */
+/* beginning in details for row4 */
+
+
+.row4 {
+  height:550px;
+  background-attachment: fixed;
+    background-image: url(https://www.icetourist.is/wp-content/uploads/2016/05/bg-section-banner-1.jpg);
+    background-repeat:no-repeat;
+  display: grid;
+  grid-template-columns: 40% auto 50% auto;
+  grid-template-rows: 100%;
+  grid-template-areas: "textcontent4lefts textcontent4lefts textcontent4rights textcontent4rights";
+
+
+
+
+}
+
+.row4 .row4container {
+
+background-color: rgba(255, 255, 255, 0.85);
+
+
+}
+
+
+
+.row4 .textcontent4left {
+  position: relative;
+      background-attachment: fixed;
+      background-image: url(https://www.icetourist.is/wp-content/uploads/2016/05/bg-section-banner-1.jpg);
+      top: 160px;
+
+
+}
+
+
+.textcontent4left {
+text-align: center;
+grid-area:textcontent4lefts;
+
+}
+
+.row4 .textcontent4left .textoverlay1 {
+  margin:0;
+  padding:0;
+
+  font-size: 95px;
+      color: #000;
+      mix-blend-mode: lighten;
+      background-color: rgba(255, 255, 255, 0.85);
+      text-transform: uppercase;
+
+
+}
+
+
+ .textoverlay2 {
+  margin:0;
+  padding:0;
+  mix-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-transform: uppercase;
+
+  font-size: 80px;
+
+
+
+}
+
+
+.row4 .textcontent4left .textoverlay3 {
+
+  margin:0;
+  padding:0;
+font-size:40px;
+  color: #000;
+  mix-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-transform: uppercase;
+
+}
+
+
+.textcontent4right {
+  align-self: center;
+  width: 585px;
+  grid-area: textcontent4rights;
+  margin: 0 auto;
+
+
+}
+
+.textcontent4right p {
+
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  line-height: 24px;
+
+
+}
+
+/* ending in details for row4
+************************* */
+
+
+
+/* ***************************
+beginning in details for row5 */
+
+
+.row5 {
+  grid-gap:2%;
+  background-color:white;
+  height:auto;
+  display: grid;
+    grid-template-columns: 20% 23% 35% 20%;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  ". textcontent5lefts twoinoneContents .";
+  ;
+
+
+
+
+}
+
+
+.textcontent5left {
+
+grid-area:textcontent5lefts;
+
+
+}
+
+.textcontent5left h2 {
+
+text-transform: uppercase;
+
+
+color:#434a54;
+font-size:30px;
+
+}
+
+.textcontent5right h2 {
+  text-align: center;
+      font-size: 24px;
+      color: #555e69;
+      line-height: 26.4px;
+}
+
+.textcontent5right strong {
+margin-top:10px;
+font-weight:bold;
+font-size:14px;
+text-align:center;
+display: block;
+
+
+
+}
+
+
+.textcontent5left p,ul {
+
+  color: #555e69;
+  line-height: 24px;
+  font-size: 14px;
+
+}
+
+.twoinoneContent {
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: auto auto;
+grid-template-areas:
+"imgcontent5rights"
+"textcontent5rights";
+grid-area:twoinoneContents;
+
+}
+
+
+.imgcontent5right {
+
+grid-area:imgcontent5rights;
+
+
+}
+
+.textcontent5right {
+
+grid-area:textcontent5rights;
+
+}
+
+
+.textcontent5right p {
+text-align: center;
+  color: #555e69;
+  line-height: 24px;
+  font-size: 14px;
+
+}
+
+
+
+/* ending in details for row5
+************************* */
+
+
+/* ***************************** */
+/* beginning in details for row6 */
+
+.row6 {
+  margin:0;
+  padding:0;
+  background-position-y: bottom;
+  background-size:cover;
+  width:100%;
+      background-image: url(https://www.icetourist.is/wp-content/uploads/2016/05/bg-section-contact-1024x533.jpg);
+      background-repeat: no-repeat;
+  height:auto;
+  display: grid;
+  grid-template-columns: 25% 15% 40% auto;
+  grid-template-rows: 100%;
+  grid-template-areas: ". imgcontent6s textforms .";
+
+
+
+
+}
+
+
+.imgcontent6 {
+  display: inline-block;
+padding:0;
+margin:0;
+grid-area:imgcontent6s;
+
+
+
+
+
+
+}
+
+.imgcontent6 IMG {
+
+  POSITION: RELATIVE;
+      TOP: 4PX;
+
+
+}
+
+.imgcontent6 {
+visibility: visible;
+animation-duration: 10s;
+  animation-name: fadeInLeft;
+
+}
+
+/* @keyframes fadeInLeft {
+
+  0%{
+    opacity: 0;
+        -webkit-transform: translate3d(-150%,0,0);
+        transform: translate3d(-150%,0,0);
+
+  }
+
+  100%{
+
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+} */
+
+.textform {
+      box-shadow: 10px 11px 7px 0px #44433e;
+      text-align: center;
+      background-color: #ffdd00;
+      height: 425px;
+      width: 575px;
+      grid-area: textforms;
+
+
+}
+
+.textform input {
+  padding-left;10px;
+  padding: 2px;
+  display: block;
+  width: 500px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+    background-color: rgb(251, 227, 71);
+  opacity: 0.8;
+border:1px solid #3c3c3c;
+}
+
+::placeholder{
+padding-left: 10px;
+font-size:12px;
+text-transform: uppercase;
+
+}
+
+.textform textarea {
+  border:1px solid #3c3c3c;
+  padding: 2px;
+  display: block;
+  width: 500px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+    background-color: rgb(251, 227, 71);
+  opacity: 0.8;
+
+
+}
+
+.textform button {
+  position: relative;
+  height: 35px;
+  margin: 0 auto;
+  width: 148px;
+  display: block;
+  background-color: #3c3c3c;
+  color: #ffdd00;
+  top: 20px;
+
+
+}
+
+.textform h2 {
+
+color:#3c3c3c;
+
+}
+
+.textform h4 {
+  font-weight:400;
+font-style: italic;
+font-size:14px;
+color:#555e69;
+
+
+}
+
+
+
+/* ending in details for row6 */
+/* ************************** */
+
+
+/* ***************************** */
+/* beginning in details for row7 */
+
+.wrapper_row7 {
+
+display: table;
+
+}
+
+
+
+.row7 {
+  height:120px;
+  background-color:#ffdd00;
+  display: grid;
+  grid-template-columns: 20% 40% 40% auto;
+  grid-template-rows: 100%;
+  grid-template-areas: ". textcontent7s textform2s .";
+
+
+
+
+}
+
+
+.textcontent7 {
+align-self: center;
+grid-area:textcontent7s;
+
+}
+
+.textcontent7 span {
+
+  font-weight: 600;
+      margin: 0;
+      color: #4d4d4d;
+      font-size: 22px;
+      line-height: 24px;
+      text-align: start;
+      padding: 0;
+
+}
+
+
+.textform2 {
+align-self: center;
+grid-area:textform2s;
+
+}
+
+/* *************************
+ending in details for row7 */
+
+
+
+
+footer p,span,h2,h3,h4,h5,h6 {
+
+
+font-family: arial;
+
+
+}
+
+
+
+footer {
+  background-image: url(https://www.icetourist.is/wp-content/uploads/2016/05/bg-footer.jpg);
+      HEIGHT: 560px;
+      color: #8e8e8e;
+      margin: 0;
+      background-color: #292f32;
+      grid-gap: 3%;
+      display: grid;
+      grid-template-columns: 18% repeat(3,18%) 17%;
+      grid-template-rows: 10% 10% 5% 60%;
+      grid-template-areas:
+          ". . . . ."
+          "footerlogos footerlogos footerlogos footerlogos footerlogos"
+          ". . . . ."
+          ". footercontent1s footercontent2s footercontent3s .";
+      padding: 0;
+
+}
+
+
+.footercontent1 {
+
+/* min-height:550px; */
+grid-area:footercontent1s;
+
+}
+
+.footercontent1 h4, .footercontent2 h4, .footercontent3 h4 {
+  margin-bottom:40px;
+  display: block;
+color:#8e8e8e;
+font-size:17px;
+margin-top:0;
+margin-left:0;
+margin-right:0;
+padding:0;
+
+}
+
+.footercontent1 p {
+  color:#8e8e8e;
+  line-height: 24px;
+margin:0;
+padding:0;
+font-size:12px;
+
+
+}
+
+.footercontent2 {
+font-size: 12px;
+grid-area:footercontent2s;
+
+
+}
+
+
+.footercontent2 ul, .footercontent3 ul {
+  line-height: 24px;
+list-style-type: none;
+margin:0;
+padding:0;
+
+}
+
+.footercontent3 {
+  font-size: 12px;
+grid-area:footercontent3s;
+
+}
+
+.footercontent2 i::before {
+
+padding:10px;
+
+}
+
+
+
+
+.logo {
+
+  margin: 0 auto;
+  width: 150px;
+  object-fit: contain;
+  grid-area:footerlogos;
+}
+
+.copyright {
+  text-align: center;
+  margin:0 auto;
+  background-image: url(https://www.icetourist.is/wp-content/uploads/2016/05/bg-footer.jpg);
+height:40px;
+
+
+
+}
+
+.copyright span {
+  font-size:12px;
+  color:#585555;
+  vertical-align: middle;
+      align-self: center;
+      text-align: center;
+      margin: 0 auto;
+      background-image: url(https://www.icetourist.is/wp-content/uploads/2016/05/bg-footer.jpg);
+      height: 40px;
+
+}
+
+
+
+}
